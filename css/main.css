@@ -1,0 +1,28 @@
+.btn-container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.main-container {
+  margin: auto;
+  display: flex;
+  /* position: absolute; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 2.5rem;
+}

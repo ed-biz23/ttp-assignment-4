@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body onload="createTable()">
+    <div class="btn-container">
+      <button onclick="addRow()">Add Row</button>
+      <button onclick="addCol()">Add Column</button>
+      <button onclick="DeleteRow()">Delete row</button>
+      <button onclick="deleteCol()">Delete column</button>
+      <select id="color">
+        <option value="" disabled selected>Select your color</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="yellow">Yellow</option>
+        <option value="orange">Orange</option>
+        <option value="purple">Purple</option>
+      </select>
+      <button onclick="setAllCellColor()">
+        Fill All Filled/Unfilled Cells
+      </button>
+      <button onclick="reset()">Reset</button>
+    </div>
+    <div class="main-container" id="main-container"></div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
